@@ -1,8 +1,8 @@
 <form fxLayout="column" fxLayoutAlign="space-around center" [formGroup]="form">
-  <mat-form-field>
+  <mat-form-field *ngIf="type === gameFormType.KanjiToFrench">
     <input matInput placeholder="音読み" formControlName="on">
   </mat-form-field>
-  <mat-form-field>
+  <mat-form-field *ngIf="type === gameFormType.KanjiToFrench">
     <input matInput placeholder="訓読み" formControlName="kon">
   </mat-form-field>
   <mat-form-field>

@@ -1,0 +1,4 @@
+<mnb-game *ngIf="currentContent" [content]="currentContent" (closeGame)="onCloseGame()"></mnb-game>
+<div *ngIf="!currentContent">
+  {{ lblCompleted }}
+</div>

@@ -9,11 +9,11 @@ import { Correction, TypeCorrection } from '../game.model';
 export class GameCorrectionComponent implements OnInit {
   @Input() corrections: Correction[];
 
-  get type() {
+  get type(): typeof TypeCorrection {
     return TypeCorrection;
   }
 
-  get lblType() {
+  get lblType(): {} {
     return {
       [this.type.On]: '音読み',
       [this.type.Kon]: '訓読み',

@@ -1,5 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
+import { GameFormType } from './game-form.model';
+import { Proposals } from '../game.model';
 
 @Component({
   selector: 'mnb-game-form',
@@ -13,13 +15,17 @@ export class GameFormComponent implements OnInit {
     translation: new FormControl()
   });
 
-  get value() {
+  @Input() type: GameFormType;
+
+  get value(): Proposals {
     return this.form.value;
+  }
+
+  get gameFormType(): typeof GameFormType {
+    return GameFormType;
   }
 
   constructor() {}
 
-  ngOnInit() {
-    console.log(this.form);
-  }
+  ngOnInit() {}
 }

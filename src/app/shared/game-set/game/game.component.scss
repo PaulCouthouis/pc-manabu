@@ -1,4 +1,4 @@
-@import '../../../config.scss';
+@import '../../../../config.scss';
 
 :host {
   width: 50%;
@@ -13,6 +13,7 @@
 
 .mat-card-content {
   height: 437px;
+  width: 320px;
 }
 
 .mat-card-title {
@@ -22,6 +23,7 @@
 
 .kanji-container {
   padding: 10px;
+  width: 100%;
 
   p {
     border: 5px solid #000;
@@ -29,7 +31,7 @@
     margin: 0 auto;
     padding: 30px 10px;
     text-align: center;
-    width: 50%;
+    width: 80%;
   }
 }
 

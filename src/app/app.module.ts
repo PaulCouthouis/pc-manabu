@@ -8,7 +8,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { AppComponent } from './app.component';
-import { GameModule } from './shared/game/game.module';
+import { GameSetModule } from './shared/game-set/game-set.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -20,7 +20,7 @@ import { GameModule } from './shared/game/game.module';
     MatButtonModule,
     MatIconModule,
     FlexLayoutModule,
-    GameModule
+    GameSetModule
   ],
   providers: [],
   bootstrap: [AppComponent]

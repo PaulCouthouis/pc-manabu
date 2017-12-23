@@ -4,6 +4,14 @@ export enum TypeCorrection {
   Translation
 }
 
+export class Content {
+  kanji?: string;
+  word?: string;
+  on?: string[];
+  kon?: string[];
+  translation: string[];
+}
+
 export class Correction {
   type: TypeCorrection;
   proposal: string;
@@ -12,7 +20,7 @@ export class Correction {
 }
 
 export class Proposals {
-  on: string;
-  kon: string;
+  on?: string;
+  kon?: string;
   translation: string;
 }
