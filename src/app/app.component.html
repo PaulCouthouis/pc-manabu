@@ -1,0 +1,21 @@
+<mat-sidenav-container>
+  <!-- <mat-sidenav mode="side" #sidenav>
+    Test
+  </mat-sidenav> -->
+  <mat-sidenav-content fxLayout="column">
+    <mat-toolbar color="primary">
+      <mat-toolbar-row>
+        <!-- <button mat-icon-button (click)="sidenav.toggle()">
+          <mat-icon>menu</mat-icon>
+        </button> -->
+
+        <div class="title-container" fxLayout="row" fxLayoutAlign="space-around center">
+          <h1>{{ title }}</h1>
+        </div>
+      </mat-toolbar-row>
+    </mat-toolbar>
+    <div class="app-container" fxLayout="column" fxLayoutAlign="center center">
+      <mnb-game></mnb-game>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

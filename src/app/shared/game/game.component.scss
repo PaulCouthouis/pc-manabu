@@ -1,0 +1,40 @@
+@import '../../../config.scss';
+
+:host {
+  width: 50%;
+  max-width: 500px;
+}
+
+.mat-card {
+  /deep/ .mat-card-header-text {
+    width: 100%;
+  }
+}
+
+.mat-card-content {
+  height: 437px;
+}
+
+.mat-card-title {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.kanji-container {
+  padding: 10px;
+
+  p {
+    border: 5px solid #000;
+    font-size: $h1-size;
+    margin: 0 auto;
+    padding: 30px 10px;
+    text-align: center;
+    width: 50%;
+  }
+}
+
+.answer-container {
+  .mat-icon {
+    margin-left: 5px;
+  }
+}

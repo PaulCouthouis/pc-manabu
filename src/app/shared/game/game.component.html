@@ -1,0 +1,17 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>
+      {{ lblTitle }}
+    </mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <div class="kanji-container">
+      <p>{{ toTranslate }}</p>
+    </div>
+    <mnb-game-form #form [style.display]="corrections ? 'none' : 'inherit'"></mnb-game-form>
+    <mnb-game-correction *ngIf="corrections" [corrections]="corrections"></mnb-game-correction>
+  </mat-card-content>
+  <mat-card-actions fxLayout="row" fxLayoutAlign="space-around center">
+    <button mat-raised-button color="primary" (click)="onClick(form.value)">{{ lblSubmit }}</button>
+  </mat-card-actions>
+</mat-card>

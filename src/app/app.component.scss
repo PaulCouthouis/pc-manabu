@@ -1,0 +1,27 @@
+@import '../config.scss';
+
+.mat-drawer-container {
+  height: 100vh;
+
+  .app-container {
+    height: calc(100vh - 64px);
+  }
+}
+
+.title-container {
+  width: calc(100% - 40px);
+
+  h1 {
+    font-size: $h1-size;
+    line-height: $h1-size;
+  }
+}
+
+.navigation {
+  margin: $small-value 0;
+
+  .mat-raised-button {
+    min-width: 300px;
+    margin: $tiny-plus-value 0;
+  }
+}

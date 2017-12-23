@@ -1,0 +1,25 @@
+<div class="answer-container" fxLayout="column" fxLayoutAlign="space-around center">
+  <div *ngFor="let correction of corrections" fxLayout="column" fxLayoutAlign="space-around center">
+    <p fxLayout="row" fxLayoutAlign="space-around center" [ngClass]="correction.isCorrect ? 'mat-color-accent' : 'mat-color-warn'">
+      <strong>{{ lblType[correction.type] }}：</strong>
+      <em>{{ correction.proposal || ' 。。。 '}}</em>&nbsp;
+      <mat-icon>{{ correction.isCorrect ? 'done' : 'close' }}</mat-icon>
+    </p>
+    <p *ngIf="correction.solutions.length && correction.type !== type.Translation">「
+      <span *ngFor="let solution of correction.solutions; last as isLast">
+        {{ solution }}
+        <span *ngIf="!isLast">、</span>
+      </span>
+      」</p>
+    <p *ngIf="correction.solutions.length && correction.type === type.Translation">(
+      <span *ngFor="let solution of correction.solutions; last as isLast">
+        {{ solution }}
+        <span *ngIf="!isLast">,</span>
+      </span>
+      )</p>
+    <p fxLayout="row" fxLayoutAlign="space-around center" *ngIf="!correction.solutions.length">
+      <em>。。。他に何もない</em>&nbsp;
+      <mat-icon>sentiment_satisfied</mat-icon>
+    </p>
+  </div>
+</div>
