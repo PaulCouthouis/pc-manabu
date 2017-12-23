@@ -1,15 +1,23 @@
+export enum TypeContent {
+  FrenchToJapanese,
+  JapaneseToFrench
+}
+
 export enum TypeCorrection {
   On,
   Kon,
-  Translation
+  JapaneseTranslation,
+  FrenchTranslation
 }
 
 export class Content {
+  type: TypeContent;
   kanji?: string;
   word?: string;
   on?: string[];
   kon?: string[];
   translation: string[];
+  iTranslation?: number;
 }
 
 export class Correction {

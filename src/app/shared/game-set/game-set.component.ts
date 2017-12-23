@@ -15,11 +15,11 @@ export class GameSetComponent implements OnInit {
   }
 
   get lblCompleted(): string {
-    return '試験が終了しました';
+    return '試験が終了しました ： ' + this.service.score + ' / 20';
   }
 
-  onCloseGame(): void {
-    this.service.nextContent();
+  onCloseGame(score: number): void {
+    this.service.nextContent(score);
   }
 
   ngOnInit() {}

@@ -17,13 +17,12 @@ export class GameCorrectionComponent implements OnInit {
     return {
       [this.type.On]: '音読み',
       [this.type.Kon]: '訓読み',
-      [this.type.Translation]: 'フランス語翻訳'
+      [this.type.FrenchTranslation]: 'フランス語翻訳',
+      [this.type.JapaneseTranslation]: '日本語翻訳'
     };
   }
 
   constructor() {}
 
-  ngOnInit() {
-    console.log(this.corrections);
-  }
+  ngOnInit() {}
 }

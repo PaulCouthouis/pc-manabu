@@ -7,8 +7,10 @@ import {
   EventEmitter
 } from '@angular/core';
 import { GameService } from './game.service';
-import { Proposals, Correction, Content } from './game.model';
+import { Proposals, Correction, Content, TypeContent } from './game.model';
 import { GameFormType } from './game-form/game-form.model';
+import { ElementRef } from '@angular/core/src/linker/element_ref';
+import { GameFormComponent } from './game-form/game-form.component';
 
 @Component({
   selector: 'mnb-game',
@@ -19,7 +21,8 @@ export class GameComponent implements OnInit {
   corrections: Correction[];
 
   @Input() content: Content;
-  @Output() closeGame: EventEmitter<void> = new EventEmitter();
+  @Output() closeGame: EventEmitter<number> = new EventEmitter();
+  @ViewChild(GameFormComponent) form: GameFormComponent;
 
   constructor(private service: GameService) {}
 
@@ -32,13 +35,21 @@ export class GameComponent implements OnInit {
   }
 
   get toTranslate(): string {
-    return this.content.kanji || this.content.word;
+    return this.content.type === TypeContent.JapaneseToFrench
+      ? this.content.kanji || this.content.word
+      : this.content.translation[this.content.iTranslation];
   }
 
   get formType(): GameFormType {
-    return this.content.kanji
-      ? GameFormType.KanjiToFrench
-      : GameFormType.WordToFrench;
+    return this.content.type === TypeContent.FrenchToJapanese
+      ? GameFormType.FrenchToJapanese
+      : this.content.kanji
+        ? GameFormType.KanjiToFrench
+        : GameFormType.WordToFrench;
+  }
+
+  get formValue(): Proposals {
+    return this.form ? this.form.value : null;
   }
 
   ngOnInit() {}
@@ -49,6 +60,6 @@ export class GameComponent implements OnInit {
       return;
     }
     this.corrections = null;
-    this.closeGame.emit();
+    this.closeGame.emit(this.service.score);
   }
 }

@@ -1,12 +1,15 @@
 <form fxLayout="column" fxLayoutAlign="space-around center" [formGroup]="form">
-  <mat-form-field *ngIf="type === gameFormType.KanjiToFrench">
-    <input matInput placeholder="音読み" formControlName="on">
+  <mat-form-field [style.display]="type === gameFormType.KanjiToFrench ? 'inherit' : 'none'">
+    <input #inputOn matInput placeholder="音読み" formControlName="on">
   </mat-form-field>
-  <mat-form-field *ngIf="type === gameFormType.KanjiToFrench">
-    <input matInput placeholder="訓読み" formControlName="kon">
+  <mat-form-field [style.display]="type === gameFormType.KanjiToFrench ? 'inherit' : 'none'">
+    <input #inputKon matInput placeholder="訓読み" formControlName="kon">
   </mat-form-field>
-  <mat-form-field>
-    <input matInput placeholder="フランス語翻訳" formControlName="translation">
+  <mat-form-field [style.display]="type === gameFormType.KanjiToFrench || type === gameFormType.WordToFrench ? 'inherit' : 'none'">
+    <input #inputFrenchTranslation matInput placeholder="フランス語翻訳" formControlName="translation">
+  </mat-form-field>
+  <mat-form-field [style.display]="type === gameFormType.FrenchToJapanese ? 'inherit' : 'none'">
+    <input #inputJapaneseTranslation matInput placeholder="日本語翻訳" formControlName="translation">
   </mat-form-field>
   <p>
     「リクエストごとに必要な回答は1つだけです」
