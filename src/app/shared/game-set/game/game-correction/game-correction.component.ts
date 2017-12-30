@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Correction, TypeCorrection } from '../game.model';
+import { Correction, TypeForm } from '../game.model';
 
 @Component({
   selector: 'mnb-game-correction',
@@ -9,8 +9,8 @@ import { Correction, TypeCorrection } from '../game.model';
 export class GameCorrectionComponent implements OnInit {
   @Input() corrections: Correction[];
 
-  get type(): typeof TypeCorrection {
-    return TypeCorrection;
+  get type(): typeof TypeForm {
+    return TypeForm;
   }
 
   get lblType(): {} {

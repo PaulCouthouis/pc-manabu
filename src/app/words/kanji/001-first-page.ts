@@ -14,12 +14,14 @@ export const FirstPageKanji = {
       translation: ['français']
     },
     {
-      word: '100人',
-      translation: ['cent personnes']
+      word: '１００人',
+      translation: ['cent personnes'],
+      precision: 'en chiffre arabe'
     },
     {
-      word: '５、6人',
-      translation: ['cinq ou six personnes']
+      word: '5、６人',
+      translation: ['cinq ou six personnes'],
+      precision: 'en chiffre arabe'
     },
     {
       word: 'あの人',
@@ -83,7 +85,7 @@ export const FirstPageKanji = {
     },
     {
       word: '二人とも',
-      translation: ['Tous les deux']
+      translation: ['tous les deux']
     },
     {
       kanji: '三',
@@ -156,7 +158,7 @@ export const FirstPageKanji = {
       translation: ['trois ou quatre personnes']
     },
     {
-      word: '四つん這い',
+      word: '四つんばい',
       translation: ['à quatre pattes']
     },
     {

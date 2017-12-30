@@ -9,7 +9,7 @@
       <p>{{ toTranslate }}</p>
     </div>
     <div fxFlex fxLayout="column" fxLayoutAlign="space-around center">
-      <mnb-game-form *ngIf="!corrections" [type]="formType"></mnb-game-form>
+      <mnb-game-form *ngIf="!corrections" [types]="formTypes"></mnb-game-form>
       <mnb-game-correction *ngIf="corrections" [corrections]="corrections"></mnb-game-correction>
     </div>
   </mat-card-content>

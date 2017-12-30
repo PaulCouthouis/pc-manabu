@@ -3,7 +3,7 @@ export enum TypeContent {
   JapaneseToFrench
 }
 
-export enum TypeCorrection {
+export enum TypeForm {
   On,
   Kon,
   JapaneseTranslation,
@@ -18,10 +18,11 @@ export class Content {
   kon?: string[];
   translation: string[];
   iTranslation?: number;
+  precision?: string;
 }
 
 export class Correction {
-  type: TypeCorrection;
+  type: TypeForm;
   proposal: string;
   isCorrect: boolean;
   solutions: string[];

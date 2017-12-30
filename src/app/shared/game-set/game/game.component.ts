@@ -4,21 +4,29 @@ import {
   ViewChild,
   Input,
   Output,
-  EventEmitter
+  EventEmitter,
+  SimpleChanges
 } from '@angular/core';
 import { GameService } from './game.service';
-import { Proposals, Correction, Content, TypeContent } from './game.model';
-import { GameFormType } from './game-form/game-form.model';
+import {
+  Proposals,
+  Correction,
+  Content,
+  TypeContent,
+  TypeForm
+} from './game.model';
 import { ElementRef } from '@angular/core/src/linker/element_ref';
 import { GameFormComponent } from './game-form/game-form.component';
+import { OnChanges } from '@angular/core/src/metadata/lifecycle_hooks';
 
 @Component({
   selector: 'mnb-game',
   templateUrl: './game.component.html',
   styleUrls: ['./game.component.scss']
 })
-export class GameComponent implements OnInit {
+export class GameComponent implements OnInit, OnChanges {
   corrections: Correction[];
+  formTypes: TypeForm[];
 
   @Input() content: Content;
   @Output() closeGame: EventEmitter<number> = new EventEmitter();
@@ -37,15 +45,8 @@ export class GameComponent implements OnInit {
   get toTranslate(): string {
     return this.content.type === TypeContent.JapaneseToFrench
       ? this.content.kanji || this.content.word
-      : this.content.translation[this.content.iTranslation];
-  }
-
-  get formType(): GameFormType {
-    return this.content.type === TypeContent.FrenchToJapanese
-      ? GameFormType.FrenchToJapanese
-      : this.content.kanji
-        ? GameFormType.KanjiToFrench
-        : GameFormType.WordToFrench;
+      : this.content.translation[this.content.iTranslation] +
+          (this.content.precision ? ' (' + this.content.precision + ')' : '');
   }
 
   get formValue(): Proposals {
@@ -53,6 +54,31 @@ export class GameComponent implements OnInit {
   }
 
   ngOnInit() {}
+
+  ngOnChanges(changes: SimpleChanges): void {
+    const newContent = changes['content'];
+    if (newContent) {
+      this.setFormTypes(newContent.currentValue);
+    }
+  }
+
+  setFormTypes(newContent: Content): TypeForm[] {
+    if (this.content.type === TypeContent.FrenchToJapanese) {
+      return (this.formTypes = [TypeForm.JapaneseTranslation]);
+    }
+
+    const arrTypes = [];
+
+    if (this.content.on) {
+      arrTypes.push(TypeForm.On);
+    }
+
+    if (this.content.kon) {
+      arrTypes.push(TypeForm.Kon);
+    }
+
+    return (this.formTypes = [...arrTypes, TypeForm.FrenchTranslation]);
+  }
 
   onClick(formValue: Proposals) {
     if (!this.corrections) {

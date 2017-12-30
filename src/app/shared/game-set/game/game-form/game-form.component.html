@@ -1,14 +1,14 @@
 <form fxLayout="column" fxLayoutAlign="space-around center" [formGroup]="form">
-  <mat-form-field [style.display]="type === gameFormType.KanjiToFrench ? 'inherit' : 'none'">
+  <mat-form-field [style.display]="hasType(typeForm.On)? 'inherit' : 'none'">
     <input #inputOn matInput placeholder="音読み" formControlName="on">
   </mat-form-field>
-  <mat-form-field [style.display]="type === gameFormType.KanjiToFrench ? 'inherit' : 'none'">
+  <mat-form-field [style.display]="hasType(typeForm.Kon) ? 'inherit' : 'none'">
     <input #inputKon matInput placeholder="訓読み" formControlName="kon">
   </mat-form-field>
-  <mat-form-field [style.display]="type === gameFormType.KanjiToFrench || type === gameFormType.WordToFrench ? 'inherit' : 'none'">
+  <mat-form-field [style.display]="hasType(typeForm.FrenchTranslation) ? 'inherit' : 'none'">
     <input #inputFrenchTranslation matInput placeholder="フランス語翻訳" formControlName="translation">
   </mat-form-field>
-  <mat-form-field [style.display]="type === gameFormType.FrenchToJapanese ? 'inherit' : 'none'">
+  <mat-form-field [style.display]="hasType(typeForm.JapaneseTranslation) ? 'inherit' : 'none'">
     <input #inputJapaneseTranslation matInput placeholder="日本語翻訳" formControlName="translation">
   </mat-form-field>
   <p>

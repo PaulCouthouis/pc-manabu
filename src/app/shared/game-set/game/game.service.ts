@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import {
   Correction,
   Proposals,
-  TypeCorrection,
+  TypeForm,
   Content,
   TypeContent
 } from './game.model';
@@ -21,11 +21,13 @@ export class GameService {
   private getCorrection(
     possible: string[],
     proposal: string,
-    type: TypeCorrection
+    type: TypeForm
   ): Correction {
     this.total++;
     const isCorrect = possible.includes(proposal);
     this.good = isCorrect ? this.good + 1 : this.good;
+
+    console.log(possible, proposal);
 
     return {
       type,
@@ -36,23 +38,20 @@ export class GameService {
   }
 
   getCorrections(content: Content, proposals: Proposals): Correction[] {
+    this.total = this.good = 0;
     if (content.type === TypeContent.JapaneseToFrench) {
       const translation = this.getCorrection(
         content.translation,
         proposals.translation,
-        TypeCorrection.FrenchTranslation
+        TypeForm.FrenchTranslation
       );
 
       if (content.on && content.kon) {
-        const on = this.getCorrection(
-          content.on,
-          proposals.on,
-          TypeCorrection.On
-        );
+        const on = this.getCorrection(content.on, proposals.on, TypeForm.On);
         const kon = this.getCorrection(
           content.kon,
           proposals.kon,
-          TypeCorrection.Kon
+          TypeForm.Kon
         );
 
         return [on, kon, translation];
@@ -65,7 +64,7 @@ export class GameService {
       this.getCorrection(
         [content.kanji || content.word],
         proposals.translation,
-        TypeCorrection.JapaneseTranslation
+        TypeForm.JapaneseTranslation
       )
     ];
   }

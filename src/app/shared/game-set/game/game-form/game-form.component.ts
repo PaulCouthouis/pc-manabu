@@ -7,8 +7,7 @@ import {
   AfterViewInit
 } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
-import { GameFormType } from './game-form.model';
-import { Proposals } from '../game.model';
+import { Proposals, TypeForm } from '../game.model';
 import { OnChanges } from '@angular/core/src/metadata/lifecycle_hooks';
 
 @Component({
@@ -23,8 +22,9 @@ export class GameFormComponent implements OnInit, OnChanges {
     translation: new FormControl()
   });
 
-  @Input() type: GameFormType;
+  @Input() types: TypeForm[];
   @ViewChild('inputOn') inputOn: ElementRef;
+  @ViewChild('inputKon') inputKon: ElementRef;
   @ViewChild('inputFrenchTranslation') inputFrenchTranslation: ElementRef;
   @ViewChild('inputJapaneseTranslation') inputJapaneseTranslation: ElementRef;
 
@@ -32,26 +32,35 @@ export class GameFormComponent implements OnInit, OnChanges {
     return this.form.value;
   }
 
-  get gameFormType(): typeof GameFormType {
-    return GameFormType;
+  get typeForm(): typeof TypeForm {
+    return TypeForm;
   }
 
   constructor() {}
 
-  private initFocus() {
-    switch (this.type) {
-      case GameFormType.KanjiToFrench:
+  private initFocus(): void {
+    const focusOn = this.types[0];
+
+    switch (focusOn) {
+      case TypeForm.On:
         return this.inputOn.nativeElement.focus();
-      case GameFormType.WordToFrench:
+      case TypeForm.Kon:
+        return this.inputOn.nativeElement.focus();
+      case TypeForm.FrenchTranslation:
         return this.inputFrenchTranslation.nativeElement.focus();
-      case GameFormType.FrenchToJapanese:
+      case TypeForm.JapaneseTranslation:
         return this.inputJapaneseTranslation.nativeElement.focus();
     }
+  }
+
+  hasType(type: TypeForm): boolean {
+    return this.types.includes(type);
   }
 
   ngOnInit() {}
 
   ngOnChanges(): void {
+    console.log('mdr');
     this.initFocus();
   }
 }

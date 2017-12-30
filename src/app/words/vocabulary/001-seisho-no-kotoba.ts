@@ -11,17 +11,17 @@ export const SeishoNoKotobaVocabulary = {
     {
       id: UUID.create(),
       word: '男',
-      translation: 'homme'
+      translation: ['homme']
     },
     {
       id: UUID.create(),
       word: '女',
-      translation: 'femme'
+      translation: ['femme']
     },
     {
       id: UUID.create(),
       word: '子',
-      translation: 'enfant'
+      translation: ['enfant']
     },
     {
       id: UUID.create(),
@@ -36,77 +36,72 @@ export const SeishoNoKotobaVocabulary = {
     {
       id: UUID.create(),
       word: '時',
-      translation: 'temps'
+      translation: ['temps']
     },
     {
       id: UUID.create(),
       word: '水',
-      translation: 'eau'
+      translation: ['eau']
     },
     {
       id: UUID.create(),
       word: '火',
-      translation: 'feu'
+      translation: ['feu']
     },
     {
       id: UUID.create(),
       word: '土',
-      translation: 'terre'
+      translation: ['terre', 'sol']
     },
     {
       id: UUID.create(),
       word: '風',
-      translation: 'vent'
+      translation: ['vent']
     },
     {
       id: UUID.create(),
       word: '空',
-      translation: 'ciel'
+      translation: ['ciel']
     },
     {
       id: UUID.create(),
       word: '山',
-      translation: 'montagne'
+      translation: ['montagne']
     },
     {
       id: UUID.create(),
       word: '川',
-      translation: 'rivière'
+      translation: ['rivière']
     },
     {
       id: UUID.create(),
       word: '木',
-      translation: 'arbre'
+      translation: ['arbre', 'bois']
     },
     {
       id: UUID.create(),
       word: '花',
-      translation: 'fleur'
+      translation: ['fleur']
     },
     {
       id: UUID.create(),
       word: '雨',
-      translation: 'pluie'
+      translation: ['pluie']
     },
     {
       id: UUID.create(),
       word: '雪',
-      translation: 'neige'
-    },
-    {
-      id: UUID.create(),
-      word: '金',
-      translation: 'argent'
+      translation: ['neige']
     },
     {
       id: UUID.create(),
       word: 'お金',
-      translation: 'argent'
+      translation: ['argent']
     },
     {
       id: UUID.create(),
       word: '刀',
-      translation: 'sabre'
+      translation: ['sabre']
     }
   ]
 };
