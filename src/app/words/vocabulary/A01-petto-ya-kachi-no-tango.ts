@@ -1,5 +1,6 @@
-export const PettoVocabulary = {
-  title: 'ペット',
+export const PettoYaKachikuNoTango = {
+  // 20
+  title: 'ペットや家畜の単語',
   words: [
     {
       word: '犬',

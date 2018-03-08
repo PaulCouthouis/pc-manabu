@@ -1,58 +1,7 @@
-export const KazokuVocabulary = {
-  title: '家族',
+export const KazokuNoTango2 = {
+  // 12
+  title: '家族の単語２',
   words: [
-    {
-      word: '夫',
-      translation: ['mon époux']
-    },
-    {
-      word: '妻',
-      translation: ['mon épouse']
-    },
-    {
-      word: '両親',
-      translation: ['mes parents']
-    },
-    {
-      word: '父',
-      translation: ['mon père']
-    },
-    {
-      word: '母',
-      translation: ['ma mère']
-    },
-    {
-      word: '子供',
-      translation: ['mon enfant']
-    },
-    {
-      word: '息子',
-      translation: ['mon fils']
-    },
-    {
-      word: '娘',
-      translation: ['ma fille']
-    },
-    {
-      word: '祖父母',
-      translation: ['mes grands-parents']
-    },
-    {
-      word: '祖父',
-      translation: ['mon grand-père']
-    },
-    {
-      word: '祖母',
-      translation: ['ma grand-mère']
-    },
-    {
-      word: '孫',
-      translation: ['mon petit-enfant']
-    },
-    {
-      word: '双子',
-      translation: ['mon jumeau', 'ma jumelle']
-    },
     {
       word: '兄',
       translation: ['mon frère ainé']

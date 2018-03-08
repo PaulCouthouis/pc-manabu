@@ -1,52 +1,6 @@
-export const IroVocabulary = {
-  title: '色',
+export const IroNoTango2 = {
+  title: '色の単語２',
   words: [
-    {
-      word: '赤',
-      translation: ['rouge']
-    },
-    {
-      word: '青',
-      translation: ['bleu']
-    },
-    {
-      word: '黄色',
-      translation: ['jaune']
-    },
-    {
-      word: 'オレンジ色',
-      translation: ['orange'],
-      precision: 'katakana'
-    },
-    {
-      word: '橙色',
-      translation: ['orange'],
-      precision: 'kanji'
-    },
-    {
-      word: '紫',
-      translation: ['violet']
-    },
-    {
-      word: '緑',
-      translation: ['vert']
-    },
-    {
-      word: '白',
-      translation: ['blanc']
-    },
-    {
-      word: '黒',
-      translation: ['noir']
-    },
-    {
-      word: '灰色',
-      translation: ['gris']
-    },
-    {
-      word: 'ピンク',
-      translation: ['rose']
-    },
     {
       word: '茶色',
       translation: ['marron']

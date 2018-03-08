@@ -15,7 +15,8 @@ export class GameSetComponent implements OnInit {
   }
 
   get lblCompleted(): string {
-    return '試験が終了しました ： ' + this.service.score + ' / 20';
+    const score = this.service.score / this.service.limit * 20;
+    return '試験が終了しました ： ' + score + ' / 20';
   }
 
   onCloseGame(score: number): void {

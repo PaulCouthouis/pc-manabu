@@ -19,7 +19,7 @@ export const FirstPageKanji = {
       precision: 'en chiffre arabe'
     },
     {
-      word: '5、６人',
+      word: '５、６人',
       translation: ['cinq ou six personnes'],
       precision: 'en chiffre arabe'
     },

@@ -1,0 +1,85 @@
+export const ZerudaNoDensetsu = {
+  title: 'ゼルダの伝説',
+  words: [
+    {
+      word: '',
+      translation: [``]
+    },
+    {
+      word: '',
+      translation: [``]
+    },
+    {
+      word: '',
+      translation: [``]
+    },
+    {
+      word: '',
+      translation: [``]
+    },
+    {
+      word: '',
+      translation: [``]
+    },
+    {
+      word: '',
+      translation: [``]
+    },
+    {
+      word: '',
+      translation: [``]
+    },
+    {
+      word: '',
+      translation: [``]
+    },
+    {
+      word: '',
+      translation: [``]
+    },
+    {
+      word: '',
+      translation: [``]
+    },
+    {
+      word: '',
+      translation: [``]
+    },
+    {
+      word: '',
+      translation: [``]
+    },
+    {
+      word: '',
+      translation: [``]
+    },
+    {
+      word: '',
+      translation: [``]
+    },
+    {
+      word: '',
+      translation: [``]
+    },
+    {
+      word: '',
+      translation: [``]
+    },
+    {
+      word: '',
+      translation: [``]
+    },
+    {
+      word: '',
+      translation: [``]
+    },
+    {
+      word: '',
+      translation: [``]
+    },
+    {
+      word: '',
+      translation: [``]
+    }
+  ]
+};

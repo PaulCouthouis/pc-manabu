@@ -13,19 +13,19 @@ export const SecondPageKanji = {
     },
     {
       word: '五、六人',
-      translation: ['cinq ou six personnes']
+      translation: ['cinq ou six personnes', '5 ou 6 personnes']
     },
     {
       word: '六日',
-      translation: ['le 6 du mois', 'six jours']
+      translation: ['le 6 du mois', 'six jours', '6 jours']
     },
     {
       word: '五、六日',
-      translation: ['cinq ou six jours']
+      translation: ['cinq ou six jours', '5 ou 6 jours']
     },
     {
       word: '六つぐらい',
-      translation: ['environ six']
+      translation: ['environ six', 'environ 6']
     },
     {
       kanji: '七',
@@ -39,11 +39,11 @@ export const SecondPageKanji = {
     },
     {
       word: '七日',
-      translation: ['le 7 du mois', 'sept jours']
+      translation: ['le 7 du mois', 'sept jours', '7 jours']
     },
     {
       word: '七メートル',
-      translation: ['7 mètres', '7 m']
+      translation: ['7 mètres', '7 m', 'sept mètres']
     },
     {
       word: '七五三',
@@ -114,45 +114,45 @@ export const SecondPageKanji = {
     },
     {
       word: '十日',
-      translation: ['dix jours', 'Le 10 du mois']
+      translation: ['dix jours', 'Le 10 du mois', '10 jours']
     },
     {
       word: '二十日',
-      translation: ['vingt jours', 'Le 20 du mois']
+      translation: ['vingt jours', 'Le 20 du mois', '20 jours']
     },
     {
       word: '十四日',
-      translation: ['quatorze jours', 'Le 14 du mois']
+      translation: ['quatorze jours', 'Le 14 du mois', '14 jours']
     },
     {
       word: '十八日',
-      translation: ['dix-huit jours', 'Le 18 du mois']
+      translation: ['dix-huit jours', 'Le 18 du mois', '18 jours']
     },
     {
       kanji: '円',
-      on: ['まる'],
-      kon: ['エン'],
+      on: ['エン'],
+      kon: ['まる'],
       translation: ['cercle', 'yen', 'rond']
     },
     {
       word: '一円',
-      translation: ['un yen']
+      translation: ['un yen', '1 yen']
     },
     {
       word: '二円',
-      translation: ['deux yens']
+      translation: ['deux yens', '2 yens']
     },
     {
       word: '三円',
-      translation: ['trois yens']
+      translation: ['trois yens', '3 yens']
     },
     {
       word: '四円',
-      translation: ['quatre yens']
+      translation: ['quatre yens', '4 yens']
     },
     {
       word: '十円',
-      translation: ['dix yens']
+      translation: ['dix yens', '10 yens']
     },
     {
       kanji: '百',
@@ -161,7 +161,7 @@ export const SecondPageKanji = {
     },
     {
       word: '百人',
-      translation: ['cent personnes']
+      translation: ['cent personnes', '100 personnes']
     },
     {
       word: '八百円',
@@ -169,7 +169,7 @@ export const SecondPageKanji = {
     },
     {
       word: '九百',
-      translation: ['neuf cents']
+      translation: ['neuf cents', '900']
     },
     {
       word: '三百六十五日',

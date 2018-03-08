@@ -35,7 +35,7 @@ export const YoubiToTaiyoukeiVocabulary = {
     },
     {
       word: '星',
-      translation: ['astre', 'planète']
+      translation: ['astre', 'planète', 'étoile']
     },
     {
       word: '太陽',
@@ -74,7 +74,7 @@ export const YoubiToTaiyoukeiVocabulary = {
       translation: ['Pluton']
     },
     {
-      word: '地峡',
+      word: '地球',
       translation: ['Terre']
     },
     {

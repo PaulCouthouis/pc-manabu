@@ -16,7 +16,7 @@ export const ReigiVocabulary = {
     {
       id: UUID.create(),
       word: 'お願いします',
-      translation: [`s'il vous plait`]
+      translation: [`s'il vous plait`, `s'il te plait`]
     },
     {
       id: UUID.create(),
