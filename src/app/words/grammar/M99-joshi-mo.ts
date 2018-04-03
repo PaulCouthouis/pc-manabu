@@ -1,6 +1,6 @@
-export const SentenceWithParticleMoGrammar = {
+export const JoshiMo = {
   // 16
-  title: 'も助詞',
+  title: '助詞「も」',
   words: [
     {
       word: 'アシタカもメロンを買う。',
@@ -20,7 +20,7 @@ export const SentenceWithParticleMoGrammar = {
     },
     {
       word: '私は２時半にも学校に戻る。',
-      translation: [`Je retourne à l’école aussi à 14h30.`]
+      translation: [`Je retourne à l'école aussi à 14h30.`]
     },
     {
       word: 'キツネもヒョウもキリンも動物だ。',
@@ -49,7 +49,7 @@ export const SentenceWithParticleMoGrammar = {
     {
       word: 'オオカミは今日も羊と山羊とハムスターを食べる。',
       translation: [
-        `Les loups mangent aujourd’hui encore (aussi) un mouton, une chèvre et un hamster.`
+        `Les loups mangent aujourd'hui encore un mouton, une chèvre et un hamster.`
       ]
     },
     {
@@ -61,7 +61,7 @@ export const SentenceWithParticleMoGrammar = {
     {
       word: '私と弟は札幌の劇場までも行く。',
       translation: [
-        `Moi et mon petit frère allons même jusqu’au théâtre de Sapporo.`
+        `Moi et mon petit frère allons même jusqu'au théâtre de Sapporo.`
       ]
     },
     {

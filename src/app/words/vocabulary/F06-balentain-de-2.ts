@@ -1,5 +1,5 @@
 export const BalentainDe2 = {
-  // 18
+  // 17
   title: 'バレンタインデー２',
   words: [
     {

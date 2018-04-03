@@ -44,7 +44,24 @@ import {
   DoragonBooru2,
   DoushiToKenkou,
   JintaiNoTango1,
-  JintaiNoTango2
+  JintaiNoTango2,
+  NichiJi1,
+  DesuNouto,
+  JikanNoTango1,
+  JikanNoTango2,
+  KihonshokuhinNoTango2,
+  NihonChizu2,
+  YoubiNoYobikataToTaiyoukei,
+  NichiJi2,
+  Jinsei,
+  YaseiDoubutsuNoTango1,
+  YaseiDoubutsuNoTango2,
+  KazokuNoTango2,
+  MononokeNoHime,
+  SekaiNoKudamono1,
+  SekaiNoKudamono2,
+  KonchuuYaHachuuruiNoTango2,
+  Ryokou
 } from '../../words/vocabulary/_index';
 import {
   BunshouNoKeisei,
@@ -55,11 +72,13 @@ import {
   JoshiNi,
   JoshiDe,
   JoshiHe,
-  JoshiWo
+  JoshiWo,
+  JikanNoHokan,
+  JoshiKaraToMade,
+  JoshiGa,
+  JoshiMo,
+  JoshiYori
 } from '../../words/grammar/_index';
-import { DesuNouto } from '../../words/vocabulary/J01-desu-nouto';
-import { JikanNoTango1 } from '../../words/vocabulary/J02-jikan-no-tango-1';
-import { JikanNoTango2 } from '../../words/vocabulary/J03-jikan-no-tango-2';
 
 @Injectable()
 export class GameSetService {
@@ -73,7 +92,7 @@ export class GameSetService {
   }
 
   private getContentsOfConfig(): Content[] {
-    return KurisumasuIbu1.words.map(content => {
+    return JoshiYori.words.map(content => {
       const type = Math.floor(Math.random() * 2)
         ? TypeContent.FrenchToJapanese
         : TypeContent.JapaneseToFrench;

@@ -1,9 +1,9 @@
-export const NichiJi = {
+export const NichiJi1 = {
   // 13
-  title: '日時',
+  title: '日時１',
   words: [
     {
-      word: '学校',
+      word: '正午',
       translation: [`midi`]
     },
     {

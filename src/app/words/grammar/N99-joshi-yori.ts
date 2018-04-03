@@ -1,5 +1,6 @@
-export const SentenceWithParticleYoriGrammar = {
-  title: 'より助詞',
+export const JoshiYori = {
+  // 16
+  title: '助詞「より」',
   words: [
     {
       word: '私は毎晩８時より９時まで蚊を殺す。',
@@ -22,23 +23,23 @@ export const SentenceWithParticleYoriGrammar = {
     {
       word: '猿は毎年野菜より木をよく植える。',
       translation: [
-        `Les singes plantent tous les ans plus d’arbres que de légumes.`
+        `Les singes plantent tous les ans plus d'arbres que de légumes.`
       ]
     },
     {
       word: '蛇はライオンより人間の方をよく殺す。',
-      translation: [`Les serpents tuent plus d’humains que de lions.`]
+      translation: [`Les serpents tuent plus d'humains que de lions.`]
     },
     {
       word: '水よりは私が父とチリでワインを飲む。',
       translation: [
-        `Plutôt que de l’eau, je bois du vin au Chili avec mon père.`
+        `Plutôt que de l'eau, je bois du vin au Chili avec mon père.`
       ]
     },
     {
       word: '私は今日より馬の傷を明日治す。',
       translation: [
-        `Je soignerai la blessure du cheval demain au lieu d’aujourd’hui.`
+        `Je soignerai la blessure du cheval demain au lieu d'aujourd'hui.`
       ]
     },
     {
@@ -56,7 +57,7 @@ export const SentenceWithParticleYoriGrammar = {
     {
       word: '蚊はアフリカのサイより人間と馬の方を刺す。',
       translation: [
-        `Les moustiques piquent des humains et des chevaux plutôt que les rhinocéros d’Afrique.`
+        `Les moustiques piquent des humains et des chevaux plutôt que les rhinocéros d'Afrique.`
       ]
     },
     {
@@ -77,7 +78,7 @@ export const SentenceWithParticleYoriGrammar = {
     },
     {
       word: '人間はカタツムリより野菜の方をよく食べる。',
-      translation: [`Les humains mangent plus de légumes que d’escargots.`]
+      translation: [`Les humains mangent plus de légumes que d'escargots.`]
     },
     {
       word: '大阪では猿の方が熊より毎日朝より庭で蛇に虫をよく売る。',

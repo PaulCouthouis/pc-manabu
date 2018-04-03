@@ -8,7 +8,7 @@ export const JikanNoHokan = {
     },
     {
       word: '海砂は正午に月と学校のスタジアムを歩く。',
-      translation: [`Misa marche dans le stade de l’école avec Light à midi.`]
+      translation: [`Misa marche dans le stade de l'école avec Light à midi.`]
     },
     {
       word: 'リュークは来月月の死神になる。',

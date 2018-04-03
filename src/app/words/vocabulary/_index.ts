@@ -42,6 +42,23 @@ import { DoragonBooru2 } from './I01-doragon-booru-2';
 import { DoushiToKenkou } from './I02-doushi-to-kenkou';
 import { JintaiNoTango1 } from './I03-jintai-no-tango-1';
 import { JintaiNoTango2 } from './I04-jintai-no-tango-2';
+import { DesuNouto } from './J01-desu-nouto';
+import { JikanNoTango1 } from './J02-jikan-no-tango-1';
+import { JikanNoTango2 } from './J03-jikan-no-tango-2';
+import { NichiJi1 } from './J04-nichi-ji-1';
+import { KihonshokuhinNoTango2 } from './J05-kihonshokuhin-no-tango-2';
+import { NihonChizu2 } from './K01-nihon-chizu-2';
+import { YoubiNoYobikataToTaiyoukei } from './K02-youbi-no-yobikata-to-taiyoukei';
+import { NichiJi2 } from './K03-nichi-ji-2';
+import { Jinsei } from './K04-jinsei';
+import { YaseiDoubutsuNoTango1 } from './L01-yasei-doubutsu-no-tango-1';
+import { YaseiDoubutsuNoTango2 } from './L02-yasei-doubutsu-no-tango-2';
+import { KazokuNoTango2 } from './L03-kazoku-no-tango-2';
+import { MononokeNoHime } from './L04-mononoke-no-hime';
+import { SekaiNoKudamono1 } from './M01-sekai-no-kudamono-1';
+import { SekaiNoKudamono2 } from './M02-sekai-no-kudamono-2';
+import { KonchuuYaHachuuruiNoTango2 } from './N01-konchuu-ya-hachuurui-no-tango-2';
+import { Ryokou } from './N02-ryokou';
 
 export {
   PettoYaKachikuNoTango,
@@ -87,5 +104,22 @@ export {
   DoragonBooru2,
   DoushiToKenkou,
   JintaiNoTango1,
-  JintaiNoTango2
+  JintaiNoTango2,
+  DesuNouto,
+  JikanNoTango1,
+  JikanNoTango2,
+  NichiJi1,
+  KihonshokuhinNoTango2,
+  NihonChizu2,
+  YoubiNoYobikataToTaiyoukei,
+  NichiJi2,
+  Jinsei,
+  YaseiDoubutsuNoTango1,
+  YaseiDoubutsuNoTango2,
+  KazokuNoTango2,
+  MononokeNoHime,
+  SekaiNoKudamono1,
+  SekaiNoKudamono2,
+  KonchuuYaHachuuruiNoTango2,
+  Ryokou
 };

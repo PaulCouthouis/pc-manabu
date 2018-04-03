@@ -24,7 +24,7 @@ export const DoragonBooru2 = {
     },
     {
       word: '舞空術',
-      translation: [`Danse de l’air`]
+      translation: [`Danse de l'air`]
     },
     {
       word: 'カメハウス',

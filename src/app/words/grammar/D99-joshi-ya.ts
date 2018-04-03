@@ -38,7 +38,7 @@ export const JoshiYa = {
         'ミッキーの手袋や靴とドナルドやグーフィーの帽子とミニーのタイツやドレスだ。',
       translation: [
         // tslint:disable-next-line:max-line-length
-        `Ce sont les gants, les chaussures, etc. de Mickey, les chapeaux d’entre autres Donald et Dingo et les collants, la robe, etc. de Minnie.`
+        `Ce sont les gants, les chaussures, etc. de Mickey, les chapeaux d'entre autres Donald et Dingo et les collants, la robe, etc. de Minnie.`
       ]
     }
   ]

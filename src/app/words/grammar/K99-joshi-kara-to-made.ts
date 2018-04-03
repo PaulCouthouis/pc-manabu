@@ -1,5 +1,6 @@
-export const SentenceWithParticleKaraAndMadeGrammar = {
-  title: 'からとまで助詞',
+export const JoshiKaraToMade = {
+  // 14
+  title: '助詞「から」と「まで」',
   words: [
     {
       word: '新幹線は東京から大阪まで行く。',
@@ -11,7 +12,7 @@ export const SentenceWithParticleKaraAndMadeGrammar = {
     },
     {
       word: '月は毎日東京大学まで走る。',
-      translation: [`Light court tous les jours jusqu’à l’université de Tokyo.`]
+      translation: [`Light court tous les jours jusqu'à l'université de Tokyo.`]
     },
     {
       word: 'リュークは毎朝７時から９時まで月とパスタを食べる。',
@@ -26,7 +27,7 @@ export const SentenceWithParticleKaraAndMadeGrammar = {
     {
       word: '魚は北海道の島からハワイ諸島まで太平洋を泳ぐ。',
       translation: [
-        `Le poisson nage dans l’océan Pacifique de l’île d’Hokkaïdo jusqu’à l’archipel d’Hawaï.`
+        `Le poisson nage dans l'océan Pacifique de l'île d'Hokkaïdo jusqu'à l'archipel d'Hawaï.`
       ]
     },
     {
@@ -38,7 +39,7 @@ export const SentenceWithParticleKaraAndMadeGrammar = {
     {
       word: '月と海砂は今日横浜の劇場から映画館まで歩く。',
       translation: [
-        `Light et Misa marchent aujourd’hui du théâtre de Yokohama jusqu’au cinéma.`
+        `Light et Misa marchent aujourd'hui du théâtre de Yokohama jusqu'au cinéma.`
       ]
     },
     {
@@ -50,7 +51,7 @@ export const SentenceWithParticleKaraAndMadeGrammar = {
     {
       word: '私と海砂の結婚は花火から始まる。',
       translation: [
-        `Le mariage de Misa et moi-même commence par un feu d’artifice.`
+        `Le mariage de Misa et moi-même commence par un feu d'artifice.`
       ]
     },
     {
@@ -65,7 +66,7 @@ export const SentenceWithParticleKaraAndMadeGrammar = {
     },
     {
       word: '２０１７年の夏は６月２１日から９月２１日までだ。',
-      translation: [`L’été 2017 durera du 21 juin au 21 septembre.`]
+      translation: [`L'été 2017 durera du 21 juin au 21 septembre.`]
     },
     {
       word: 'ジュリアン・フォンタニエは日本語をひらがなから教える。',

@@ -24,7 +24,7 @@ export const JoshiTo = {
     },
     {
       word: 'エジプトの神々のオシリスとイシスとホルスだ。',
-      translation: [`Ce sont les dieux d’Égypte Osiris, Isis et Horus.`]
+      translation: [`Ce sont les dieux d'Égypte Osiris, Isis et Horus.`]
     },
     {
       word: 'ナイル川のワニとクレオパトラのラクダとスフィンクスの帽子だ。',
@@ -46,7 +46,7 @@ export const JoshiTo = {
     },
     {
       word: 'エジプトと日本のブリーフだ。',
-      translation: [`Ce sont des slips d’Égypte et du Japon.`]
+      translation: [`Ce sont des slips d'Égypte et du Japon.`]
     },
     {
       word: 'ルイージのシャツとネクタイとボウだ。',
@@ -63,7 +63,7 @@ export const JoshiTo = {
     {
       word: 'エジプトのヒエログリフと日本語の漢字とかなだ。',
       translation: [
-        `Ce sont des hiéroglyphes d’Égypte et des kanji et kana japonais.`
+        `Ce sont des hiéroglyphes d'Égypte et des kanji et kana japonais.`
       ]
     },
     {

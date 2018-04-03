@@ -1,5 +1,6 @@
-export const KonchuuYaHachuuruiNoTango = {
-  title: '昆虫や爬虫類の単語',
+export const KonchuuYaHachuuruiNoTango2 = {
+  // 11
+  title: '昆虫や爬虫類の単語２',
   words: [
     {
       word: '蟻',

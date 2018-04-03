@@ -7,6 +7,11 @@ import { JoshiNi } from './F99-joshi-ni';
 import { JoshiDe } from './G99-joshi-de';
 import { JoshiHe } from './H99-joshi-he';
 import { JoshiWo } from './I99-joshi-wo';
+import { JikanNoHokan } from './J99-jikan-no-hokan';
+import { JoshiKaraToMade } from './K99-joshi-kara-to-made';
+import { JoshiGa } from './L99-joshi-ga';
+import { JoshiMo } from './M99-joshi-mo';
+import { JoshiYori } from './N99-joshi-yori';
 
 export {
   BunshouNoKeisei,
@@ -17,5 +22,10 @@ export {
   JoshiNi,
   JoshiDe,
   JoshiHe,
-  JoshiWo
+  JoshiWo,
+  JikanNoHokan,
+  JoshiKaraToMade,
+  JoshiGa,
+  JoshiMo,
+  JoshiYori
 };

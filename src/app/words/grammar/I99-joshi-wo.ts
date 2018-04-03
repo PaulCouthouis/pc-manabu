@@ -8,12 +8,12 @@ export const JoshiWo = {
     },
     {
       word: 'ピッコロは孫悟飯の前で水を飲む。',
-      translation: [`Piccolo boit de l’eau devant Son Gohan.`]
+      translation: [`Piccolo boit de l'eau devant Son Gohan.`]
     },
     {
       word: 'ヤムチャはブルマの飛行機や潜水艦を買う。',
       translation: [
-        `Yamcha achète entre autres l’avion et le sous-marin de Bulma.`
+        `Yamcha achète entre autres l'avion et le sous-marin de Bulma.`
       ]
     },
     {
@@ -33,7 +33,7 @@ export const JoshiWo = {
     {
       word: '孫悟飯はチチの家の周りでビーデルと孫悟天に舞空術を教える。',
       translation: [
-        `Son Gohan enseigne la Danse de l’air à Videl et à Son Goten aux alentours de la maison de Chichi.`
+        `Son Gohan enseigne la Danse de l'air à Videl et à Son Goten aux alentours de la maison de Chichi.`
       ]
     },
     {
@@ -55,7 +55,7 @@ export const JoshiWo = {
     {
       word: 'ブルマは西の都の病院の中で孫悟飯やトランクスの傷を治す。',
       translation: [
-        `Bulma soigne les blessures de Son Gohan, de Trunks, etc. à l’intérieur de l’hôpital de la Capitale de l’ouest.`
+        `Bulma soigne les blessures de Son Gohan, de Trunks, etc. à l'intérieur de l'hôpital de la Capitale de l'ouest.`
       ]
     },
     {

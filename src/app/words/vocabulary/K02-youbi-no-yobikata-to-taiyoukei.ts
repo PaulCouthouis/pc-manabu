@@ -1,5 +1,6 @@
-export const YoubiToTaiyoukeiVocabulary = {
-  title: '曜日と太陽系',
+export const YoubiNoYobikataToTaiyoukei = {
+  // 20
+  title: '曜日の呼び方と太陽系',
   words: [
     {
       word: '曜日',

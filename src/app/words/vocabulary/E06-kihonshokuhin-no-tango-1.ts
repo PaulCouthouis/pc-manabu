@@ -1,4 +1,5 @@
 export const KihonshokuhinNoTango1 = {
+  // 16
   title: '基本食品の単語',
   words: [
     {
@@ -11,7 +12,7 @@ export const KihonshokuhinNoTango1 = {
     },
     {
       word: 'ご飯',
-      translation: [`riz`],
+      translation: [`riz`, `repas`],
       precision: 'cuit ou repas'
     },
     {
