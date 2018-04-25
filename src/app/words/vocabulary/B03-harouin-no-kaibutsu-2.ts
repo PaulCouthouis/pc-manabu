@@ -1,4 +1,5 @@
 export const HarouinNoKaibutsu2 = {
+  // 15
   title: 'ハロウインの怪物２',
   words: [
     {

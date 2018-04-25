@@ -1,4 +1,5 @@
 export const ZerudaNoDensetsu2 = {
+  // 10
   title: 'ゼルダの伝説２',
   words: [
     {

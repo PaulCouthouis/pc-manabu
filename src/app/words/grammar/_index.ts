@@ -12,6 +12,7 @@ import { JoshiKaraToMade } from './K99-joshi-kara-to-made';
 import { JoshiGa } from './L99-joshi-ga';
 import { JoshiMo } from './M99-joshi-mo';
 import { JoshiYori } from './N99-joshi-yori';
+import { FukushiToFukushiNoRyuushi } from './O99-fukushi-to-fukushi-no-ryuushi';
 
 export {
   BunshouNoKeisei,
@@ -27,5 +28,6 @@ export {
   JoshiKaraToMade,
   JoshiGa,
   JoshiMo,
-  JoshiYori
+  JoshiYori,
+  FukushiToFukushiNoRyuushi
 };

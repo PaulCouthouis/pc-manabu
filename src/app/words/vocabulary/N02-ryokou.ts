@@ -1,5 +1,5 @@
 export const Ryokou = {
-  // 15
+  // 16
   title: '旅行',
   words: [
     {
@@ -28,11 +28,11 @@ export const Ryokou = {
     },
     {
       word: 'ドイツ人',
-      translation: [`Allemands`]
+      translation: [`Allemand`]
     },
     {
       word: 'プレッツェル',
-      translation: [`bretzels`]
+      translation: [`bretzel`]
     },
     {
       word: 'ワイン',
@@ -48,7 +48,7 @@ export const Ryokou = {
     },
     {
       word: 'イタリア人',
-      translation: [`Italiens`]
+      translation: [`Italien`]
     },
     {
       word: 'マリアーノ',
@@ -65,6 +65,14 @@ export const Ryokou = {
     {
       word: '毎日朝',
       translation: [`tous les jours dès le matin`, `chaque jour dès le matin`]
+    },
+    {
+      word: '殺す',
+      translation: [`tuer`]
+    },
+    {
+      word: '毎年',
+      translation: [`tous les ans`, `chaque année`]
     }
   ]
 };

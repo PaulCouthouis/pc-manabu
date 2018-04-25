@@ -1,10 +1,11 @@
 export const SunahamadeNoBakansu2 = {
+  // 15
   title: 'すなはまでのバカンス２',
   words: [
     {
       word: '貝',
       translation: [`coquillage`],
-      precision: 'kanji'
+      precision: 'kanji seul'
     },
     {
       word: '巻貝',

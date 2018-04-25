@@ -59,6 +59,9 @@ import { SekaiNoKudamono1 } from './M01-sekai-no-kudamono-1';
 import { SekaiNoKudamono2 } from './M02-sekai-no-kudamono-2';
 import { KonchuuYaHachuuruiNoTango2 } from './N01-konchuu-ya-hachuurui-no-tango-2';
 import { Ryokou } from './N02-ryokou';
+import { Fukushi } from './O01-fukushi';
+import { Metarugi } from './O02-metarugi';
+import { SunahamadeNoBakansu2 } from './O03-sunahamade-no-bakansu-2';
 
 export {
   PettoYaKachikuNoTango,
@@ -121,5 +124,8 @@ export {
   SekaiNoKudamono1,
   SekaiNoKudamono2,
   KonchuuYaHachuuruiNoTango2,
-  Ryokou
+  Ryokou,
+  Fukushi,
+  Metarugi,
+  SunahamadeNoBakansu2
 };
