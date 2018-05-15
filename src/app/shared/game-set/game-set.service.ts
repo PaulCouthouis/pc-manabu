@@ -61,7 +61,16 @@ import {
   SekaiNoKudamono1,
   SekaiNoKudamono2,
   KonchuuYaHachuuruiNoTango2,
-  Ryokou
+  Ryokou,
+  Fukushi,
+  Metarugi,
+  SunahamadeNoBakansu2,
+  FukushiRyuushi,
+  IeNoHeyaNoTango1,
+  IeNoHeyaNoTango2,
+  KimiNoNaWa,
+  KurisumasuIbu2,
+  MattanRyuushi
 } from '../../words/vocabulary/_index';
 import {
   BunshouNoKeisei,
@@ -77,7 +86,9 @@ import {
   JoshiKaraToMade,
   JoshiGa,
   JoshiMo,
-  JoshiYori
+  JoshiYori,
+  FukushiToFukushiNoRyuushi,
+  BunmatsuNoRyuushi
 } from '../../words/grammar/_index';
 
 @Injectable()
@@ -92,7 +103,7 @@ export class GameSetService {
   }
 
   private getContentsOfConfig(): Content[] {
-    return Ryokou.words.map(content => {
+    return Fukushi.words.map(content => {
       const type = Math.floor(Math.random() * 2)
         ? TypeContent.FrenchToJapanese
         : TypeContent.JapaneseToFrench;

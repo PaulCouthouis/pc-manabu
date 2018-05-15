@@ -73,6 +73,10 @@ export const Fukushi = {
     {
       word: 'やはり',
       translation: [`comme on pouvait s'y attendre`]
+    },
+    {
+      word: 'いつもより',
+      translation: [`plus que d'habitude`]
     }
   ]
 };

@@ -1,5 +1,5 @@
 export const DesuNouto = {
-  // 10
+  // 9
   title: 'デスノート',
   words: [
     {
@@ -13,10 +13,6 @@ export const DesuNouto = {
     {
       word: 'リューク',
       translation: [`Ryuk`]
-    },
-    {
-      word: 'Ｌ',
-      translation: [`L`]
     },
     {
       word: 'ワタリ',

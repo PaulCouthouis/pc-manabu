@@ -60,7 +60,7 @@ export const Ryokou = {
     },
     {
       word: 'よく',
-      translation: [`plus`]
+      translation: [`plus`, `souvent`]
     },
     {
       word: '毎日朝',

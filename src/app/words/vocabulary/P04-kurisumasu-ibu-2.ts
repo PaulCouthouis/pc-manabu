@@ -1,4 +1,5 @@
 export const KurisumasuIbu2 = {
+  // 14
   title: 'クリスマス・イヴ２',
   words: [
     {
@@ -10,7 +11,7 @@ export const KurisumasuIbu2 = {
       translation: ['houx']
     },
     {
-      word: 'カーキ',
+      word: 'ケーキ',
       translation: ['gâteau']
     },
     {

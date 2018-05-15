@@ -13,6 +13,7 @@ import { JoshiGa } from './L99-joshi-ga';
 import { JoshiMo } from './M99-joshi-mo';
 import { JoshiYori } from './N99-joshi-yori';
 import { FukushiToFukushiNoRyuushi } from './O99-fukushi-to-fukushi-no-ryuushi';
+import { BunmatsuNoRyuushi } from './P99-bunmatsu-no-ryuushi';
 
 export {
   BunshouNoKeisei,
@@ -29,5 +30,6 @@ export {
   JoshiGa,
   JoshiMo,
   JoshiYori,
-  FukushiToFukushiNoRyuushi
+  FukushiToFukushiNoRyuushi,
+  BunmatsuNoRyuushi
 };

@@ -62,6 +62,12 @@ import { Ryokou } from './N02-ryokou';
 import { Fukushi } from './O01-fukushi';
 import { Metarugi } from './O02-metarugi';
 import { SunahamadeNoBakansu2 } from './O03-sunahamade-no-bakansu-2';
+import { FukushiRyuushi } from './O04-fukushi-ryuushi';
+import { IeNoHeyaNoTango1 } from './P01-ie-no-heya-no-tango-1';
+import { IeNoHeyaNoTango2 } from './P02-ie-no-heya-no-tango-2';
+import { KimiNoNaWa } from './P03-kimi-no-na-wa';
+import { KurisumasuIbu2 } from './P04-kurisumasu-ibu-2';
+import { MattanRyuushi } from './P05-mattan-ryuushi';
 
 export {
   PettoYaKachikuNoTango,
@@ -127,5 +133,11 @@ export {
   Ryokou,
   Fukushi,
   Metarugi,
-  SunahamadeNoBakansu2
+  SunahamadeNoBakansu2,
+  FukushiRyuushi,
+  IeNoHeyaNoTango1,
+  IeNoHeyaNoTango2,
+  KimiNoNaWa,
+  KurisumasuIbu2,
+  MattanRyuushi
 };

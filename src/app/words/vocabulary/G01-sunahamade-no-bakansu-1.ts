@@ -56,7 +56,7 @@ export const SunahamadeNoBakansu1 = {
       translation: [`lunettes`]
     },
     {
-      word: 'スングラス',
+      word: 'サングラス',
       translation: [`lunettes de soleil`]
     },
     {

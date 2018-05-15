@@ -1,4 +1,5 @@
 export const KodaiEjiputo = {
+  // 12
   title: '古代エジプト',
   words: [
     {
