@@ -1,14 +1,10 @@
 export const FuransuNoNamaeToBasho = {
-  // 10
+  // 9
   title: 'フランスの名前と場所',
   words: [
     {
       word: '首都',
       translation: [`capitale`]
-    },
-    {
-      word: '本',
-      translation: [`livre`]
     },
     {
       word: 'ギギ',

@@ -1,11 +1,7 @@
 export const PettoYaKachikuNoTango = {
-  // 20
+  // 19
   title: 'ペットや家畜の単語',
   words: [
-    {
-      word: '犬',
-      translation: ['chien']
-    },
     {
       word: '猫',
       translation: ['chat']

@@ -1,5 +1,5 @@
 export const MattanRyuushi = {
-  // 10
+  // 11
   title: '末端粒子',
   words: [
     {

@@ -1,5 +1,5 @@
 export const Metarugi = {
-  // 10
+  // 9
   title: 'メタルギ',
   words: [
     {
@@ -30,10 +30,6 @@ export const Metarugi = {
     {
       word: 'オセロット',
       translation: [`Ocelot`]
-    },
-    {
-      word: '映画',
-      translation: [`film`]
     },
     {
       word: '２５時',

@@ -1,5 +1,5 @@
 export const KateiYouhinNoTango1 = {
-  // 11
+  // 6
   title: '家庭用品の単語１',
   words: [
     {
@@ -15,10 +15,6 @@ export const KateiYouhinNoTango1 = {
       translation: ['stylo']
     },
     {
-      word: 'ボールペン',
-      translation: ['stylo-bille']
-    },
-    {
       word: 'ノート',
       translation: ['cahier']
     },
@@ -27,16 +23,8 @@ export const KateiYouhinNoTango1 = {
       translation: ['calendrier']
     },
     {
-      word: 'ラジオ',
-      translation: ['radio']
-    },
-    {
       word: 'ステレオ',
       translation: ['chaîne Hi-Fi']
-    },
-    {
-      word: 'テレビ',
-      translation: ['télévision']
     }
   ]
 };

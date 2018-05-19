@@ -103,7 +103,7 @@ export class GameSetService {
   }
 
   private getContentsOfConfig(): Content[] {
-    return Fukushi.words.map(content => {
+    return Metarugi.words.map(content => {
       const type = Math.floor(Math.random() * 2)
         ? TypeContent.FrenchToJapanese
         : TypeContent.JapaneseToFrench;
