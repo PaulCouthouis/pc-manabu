@@ -8,7 +8,11 @@ export const Shokugyou1 = {
     },
     {
       word: '会社員',
-      translation: [`employé d'une compagnie`, `employé d'une entreprise`]
+      translation: [
+        `employé d'une compagnie`,
+        `employé d'une entreprise`,
+        `employé de compagnie`
+      ]
     },
     {
       word: '公務員',

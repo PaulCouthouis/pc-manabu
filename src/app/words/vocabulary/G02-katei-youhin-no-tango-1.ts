@@ -1,11 +1,7 @@
 export const KateiYouhinNoTango1 = {
-  // 6
+  // 5
   title: '家庭用品の単語１',
   words: [
-    {
-      word: 'ベッド',
-      translation: ['lit']
-    },
     {
       word: 'ソファー',
       translation: ['canapé']

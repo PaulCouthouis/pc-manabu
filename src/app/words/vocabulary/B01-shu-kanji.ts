@@ -1,4 +1,5 @@
 export const ShuKanji = {
+  // 18
   title: '主漢字',
   words: [
     {
@@ -54,16 +55,8 @@ export const ShuKanji = {
       translation: ['montagne']
     },
     {
-      word: '川',
-      translation: ['rivière']
-    },
-    {
       word: '木',
       translation: ['arbre', 'bois']
-    },
-    {
-      word: '花',
-      translation: ['fleur']
     },
     {
       word: '雨',

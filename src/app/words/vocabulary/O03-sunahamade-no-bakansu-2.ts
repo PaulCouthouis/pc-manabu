@@ -1,5 +1,5 @@
 export const SunahamadeNoBakansu2 = {
-  // 14
+  // 13
   title: 'すなはまでのバカンス２',
   words: [
     {
@@ -18,10 +18,6 @@ export const SunahamadeNoBakansu2 = {
     {
       word: '鴎',
       translation: [`mouette`]
-    },
-    {
-      word: 'ボール',
-      translation: [`ballon`]
     },
     {
       word: '風船',

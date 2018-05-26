@@ -1,5 +1,5 @@
 export const ShisetsuNoTango2 = {
-  // 13
+  // 10
   title: '施設の単語２',
   words: [
     {
@@ -31,20 +31,8 @@ export const ShisetsuNoTango2 = {
       translation: [`super marché`]
     },
     {
-      word: 'レストラン',
-      translation: [`restaurant`]
-    },
-    {
-      word: 'ホテル',
-      translation: [`hôtel`]
-    },
-    {
       word: 'スタジアん',
       translation: [`stade`]
-    },
-    {
-      word: '駅',
-      translation: [`gare`]
     },
     {
       word: '港',

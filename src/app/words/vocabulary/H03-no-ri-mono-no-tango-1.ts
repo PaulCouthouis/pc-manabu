@@ -1,18 +1,10 @@
 export const NoRiMonoNoTango1 = {
-  // 14
+  // 12
   title: '乗り物の単語１',
   words: [
     {
       word: '自動車',
       translation: ['automobile']
-    },
-    {
-      word: '車',
-      translation: ['voiture']
-    },
-    {
-      word: '自転車',
-      translation: ['bicyclette', 'vélo']
     },
     {
       word: '消防車',

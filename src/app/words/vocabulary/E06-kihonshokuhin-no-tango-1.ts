@@ -1,5 +1,5 @@
 export const KihonshokuhinNoTango1 = {
-  // 16
+  // 15
   title: '基本食品の単語',
   words: [
     {
@@ -48,10 +48,6 @@ export const KihonshokuhinNoTango1 = {
     {
       word: '肉',
       translation: [`viande`]
-    },
-    {
-      word: '卵',
-      translation: [`oeuf`]
     },
     {
       word: 'お茶',

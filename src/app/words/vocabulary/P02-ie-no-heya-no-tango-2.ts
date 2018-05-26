@@ -1,5 +1,5 @@
 export const IeNoHeyaNoTango2 = {
-  // 13
+  // 12
   title: '家の部屋の単語２',
   words: [
     {
@@ -40,10 +40,6 @@ export const IeNoHeyaNoTango2 = {
     {
       word: '壁',
       translation: [`mur`]
-    },
-    {
-      word: '窓',
-      translation: [`fenêtre`]
     },
     {
       word: 'バルコニー',

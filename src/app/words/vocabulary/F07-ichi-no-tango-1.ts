@@ -1,5 +1,5 @@
 export const IchiNoTango1 = {
-  // 10
+  // 6
   title: '位置の単語１',
   words: [
     {
@@ -25,22 +25,6 @@ export const IchiNoTango1 = {
     {
       word: '左',
       translation: ['gauche']
-    },
-    {
-      word: '上',
-      translation: ['dessus']
-    },
-    {
-      word: '下',
-      translation: ['dessous']
-    },
-    {
-      word: '前',
-      translation: ['devant']
-    },
-    {
-      word: '後ろ',
-      translation: ['arrière', 'derrière']
     }
   ]
 };

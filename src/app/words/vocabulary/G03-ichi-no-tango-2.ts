@@ -1,15 +1,10 @@
 export const IchiNoTango2 = {
-  // 11
+  // 9
   title: '位置の単語２',
   words: [
     {
       word: '内',
       translation: ['intérieur']
-    },
-    {
-      word: '中',
-      translation: ['intérieur', 'milieu'],
-      precision: 'CHÜ'
     },
     {
       word: '外',
@@ -30,10 +25,6 @@ export const IchiNoTango2 = {
     {
       word: '裏',
       translation: ['envers']
-    },
-    {
-      word: '横',
-      translation: ['côté']
     },
     {
       word: 'そば',

@@ -1,5 +1,5 @@
 export const KateiYouhinNoTango2 = {
-  // 11
+  // 9
   title: '家庭用品の単語２',
   words: [
     {
@@ -19,16 +19,8 @@ export const KateiYouhinNoTango2 = {
       translation: ['carte de paiement', 'carte de crédit']
     },
     {
-      word: 'ドア',
-      translation: ['porte']
-    },
-    {
       word: 'ランプ',
       translation: ['lampe']
-    },
-    {
-      word: 'テーブル',
-      translation: ['table']
     },
     {
       word: 'フォーク',

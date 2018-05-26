@@ -1,18 +1,10 @@
 export const IeNoHeyaNoTango1 = {
-  // 12
+  // 10
   title: '家の部屋の単語１',
   words: [
     {
-      word: '部屋',
-      translation: [`pièce`, 'salle']
-    },
-    {
       word: '寝室',
       translation: [`chambre`, `chambre à coucher`]
-    },
-    {
-      word: '台所',
-      translation: [`cuisine`]
     },
     {
       word: 'キッチン',

@@ -35,7 +35,7 @@ export const Shokugyou2 = {
       translation: [`architecte`]
     },
     {
-      word: 'インジニア',
+      word: 'エンジニア',
       translation: [`ingénieur`]
     },
     {
