@@ -1,14 +1,10 @@
 export const NoRiMonoNoTango2 = {
-  // 14
+  // 12
   title: '乗り物の単語２',
   words: [
     {
       word: '路面電車',
       translation: [`tramway`]
-    },
-    {
-      word: '地下鉄',
-      translation: [`métro`]
     },
     {
       word: 'メトロ',
@@ -25,20 +21,12 @@ export const NoRiMonoNoTango2 = {
       translation: [`camion`]
     },
     {
-      word: '船',
-      translation: [`bateau`]
-    },
-    {
       word: '貨物線',
       translation: [`cargo`]
     },
     {
       word: '潜水艦',
       translation: [`sous-marin`]
-    },
-    {
-      word: '飛行機',
-      translation: [`avion`]
     },
     {
       word: 'ヘリコプター',

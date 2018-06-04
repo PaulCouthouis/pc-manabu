@@ -1,11 +1,7 @@
 export const NichiJi2 = {
-  // 8
+  // 7
   title: '日時２',
   words: [
-    {
-      word: '毎朝',
-      translation: [`tous les matins`, `chaque matin`]
-    },
     {
       word: '７時',
       translation: [`7h`]

@@ -65,7 +65,7 @@ import { SunahamadeNoBakansu2 } from './O03-sunahamade-no-bakansu-2';
 import { FukushiRyuushi } from './O04-fukushi-ryuushi';
 import { IeNoHeyaNoTango1 } from './P01-ie-no-heya-no-tango-1';
 import { IeNoHeyaNoTango2 } from './P02-ie-no-heya-no-tango-2';
-import { KimiNoNaWa } from './P03-kimi-no-na-wa';
+import { KimiNoNaWa1 } from './P03-kimi-no-na-wa-1';
 import { KurisumasuIbu2 } from './P04-kurisumasu-ibu-2';
 import { MattanRyuushi } from './P05-mattan-ryuushi';
 
@@ -137,7 +137,7 @@ export {
   FukushiRyuushi,
   IeNoHeyaNoTango1,
   IeNoHeyaNoTango2,
-  KimiNoNaWa,
+  KimiNoNaWa1,
   KurisumasuIbu2,
   MattanRyuushi
 };

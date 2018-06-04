@@ -1,5 +1,5 @@
 export const NichiJi1 = {
-  // 13
+  // 8
   title: '日時１',
   words: [
     {
@@ -15,32 +15,12 @@ export const NichiJi1 = {
       translation: [`2 janvier`]
     },
     {
-      word: '毎日',
-      translation: [`tous les jours`, `chaque jour`]
-    },
-    {
       word: '午後５時４９分',
       translation: [`17h49`]
     },
     {
-      word: '毎晩',
-      translation: [`tous les soirs`, `chaque soir`]
-    },
-    {
-      word: '毎週',
-      translation: [`toutes les semaines`, `chaque semaine`, `hebdomadaire`]
-    },
-    {
-      word: '今朝',
-      translation: [`ce matin`]
-    },
-    {
       word: '２時',
       translation: [`2h`]
-    },
-    {
-      word: '毎月',
-      translation: [`tous les mois`, 'chaque mois']
     },
     {
       word: 'いつも',

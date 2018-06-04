@@ -1,51 +1,7 @@
 import { Injectable } from '@angular/core';
 
-import {
-  JoshiKaraToMade,
-  JoshiGa,
-  JoshiYori,
-  FukushiToFukushiNoRyuushi
-} from '../../words/grammar/_index';
+import { KimiNoNaWa2 } from '../../words/vocabulary/Q01-kimi-no-na-wa-2';
 import { Content, TypeContent } from './game/game.model';
-import {
-  NichiJi2,
-  SekaiNoKudamono1,
-  ZerudaNoDensetsu2,
-  KodaiEjiputo,
-  NichiJi1,
-  MononokeNoHime,
-  Fukushi,
-  Metarugi,
-  SunahamadeNoBakansu2,
-  FukushiRyuushi,
-  IeNoHeyaNoTango1,
-  HarouinNoKaibutsu1,
-  NichijouNoFuku1,
-  KuniguniNoYobikani1,
-  SunahamadeNoBakansu1,
-  NoRiMonoNoTango2,
-  YaseiDoubutsuNoTango2,
-  KonchuuYaHachuuruiNoTango2,
-  KuniguniNoYobikani2,
-  ZerudaNoDensetsu3,
-  BalentainDe1,
-  ShisetsuNoTango1,
-  JikanNoTango1,
-  NoRiMonoNoTango1,
-  IchiNoTango1,
-  NihonChizu2,
-  YoubiNoYobikataToTaiyoukei,
-  IeNoHeyaNoTango2,
-  KimiNoNaWa,
-  KurisumasuIbu2,
-  MattanRyuushi
-} from '../../words/vocabulary/_index';
-import {
-  Shokugyou1,
-  Shokugyou2,
-  Dainika1,
-  Dainika2
-} from '../../words/espace-japon/_index';
 
 @Injectable()
 export class GameSetService {
@@ -59,7 +15,7 @@ export class GameSetService {
   }
 
   private getContentsOfConfig(): Content[] {
-    return Dainika1.words.map(content => {
+    return KimiNoNaWa2.words.map(content => {
       const type = Math.floor(Math.random() * 2)
         ? TypeContent.FrenchToJapanese
         : TypeContent.JapaneseToFrench;

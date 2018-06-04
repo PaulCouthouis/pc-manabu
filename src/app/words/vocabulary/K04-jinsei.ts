@@ -1,11 +1,7 @@
 export const Jinsei = {
-  // 12
+  // 11
   title: '人生',
   words: [
-    {
-      word: '新幹線',
-      translation: [`Shinkansen`]
-    },
     {
       word: '人生',
       translation: [`vie`]

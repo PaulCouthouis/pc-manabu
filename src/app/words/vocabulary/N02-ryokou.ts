@@ -1,5 +1,5 @@
 export const Ryokou = {
-  // 16
+  // 15
   title: '旅行',
   words: [
     {
@@ -69,10 +69,6 @@ export const Ryokou = {
     {
       word: '殺す',
       translation: [`tuer`]
-    },
-    {
-      word: '毎年',
-      translation: [`tous les ans`, `chaque année`]
     }
   ]
 };

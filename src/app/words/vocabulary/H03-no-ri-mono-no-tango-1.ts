@@ -1,5 +1,5 @@
 export const NoRiMonoNoTango1 = {
-  // 12
+  // 9
   title: '乗り物の単語１',
   words: [
     {
@@ -38,22 +38,9 @@ export const NoRiMonoNoTango1 = {
       translation: [`scooter`]
     },
     {
-      word: 'タクシー',
-      translation: [`taxi`]
-    },
-    {
-      word: 'バス',
-      translation: [`bus`]
-    },
-    {
       word: '列車',
       translation: [`train`],
       precision: 'à vapeur'
-    },
-    {
-      word: '電車',
-      translation: [`train`],
-      precision: 'électrique'
     }
   ]
 };

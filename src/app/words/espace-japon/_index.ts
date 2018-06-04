@@ -6,6 +6,11 @@ import { DaiSanKa1 } from './EJ005-daisanka-1';
 import { DaiSanKa2 } from './EJ006-daisanka-2';
 import { DaiYonKa1 } from './EJ007-daiyonka-1';
 import { DaiYonKa2 } from './EJ008-daiyonka-2';
+import { DaiYonKa3 } from './EJ009-daiyonka-3';
+import { DaiYonKa4 } from './EJ010-daiyonka-4';
+import { JikanNoHyougen1 } from './EJ011-jikan-no-hyougen-1';
+import { JikanNoHyougen2 } from './EJ012-jikan-no-hyougen-2';
+import { JikanNoHyougen3 } from './EJ013-jikan-no-hyougen-3';
 
 export {
   Shokugyou1,
@@ -15,5 +20,10 @@ export {
   DaiSanKa1,
   DaiSanKa2,
   DaiYonKa1,
-  DaiYonKa2
+  DaiYonKa2,
+  DaiYonKa3,
+  DaiYonKa4,
+  JikanNoHyougen1,
+  JikanNoHyougen2,
+  JikanNoHyougen3
 };

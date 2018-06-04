@@ -1,6 +1,6 @@
-export const KimiNoNaWa = {
-  // 9
-  title: '君の名は',
+export const KimiNoNaWa1 = {
+  // 8
+  title: '君の名は１',
   words: [
     {
       word: '国旗',
@@ -37,10 +37,6 @@ export const KimiNoNaWa = {
     {
       word: 'ペンダント',
       translation: [`pendentif`]
-    },
-    {
-      word: '来週',
-      translation: [`semaine prochaine`]
     },
     {
       word: '渋谷',
