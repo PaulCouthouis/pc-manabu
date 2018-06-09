@@ -1,5 +1,5 @@
 export const ZerudaNoDensetsu2 = {
-  // 10
+  // 9
   title: 'ゼルダの伝説２',
   words: [
     {
@@ -29,10 +29,6 @@ export const ZerudaNoDensetsu2 = {
     {
       word: '村',
       translation: [`village`]
-    },
-    {
-      word: '夜',
-      translation: [`nuit`]
     },
     {
       word: 'ハイラル',

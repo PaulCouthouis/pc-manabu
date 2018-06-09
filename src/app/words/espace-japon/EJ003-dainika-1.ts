@@ -1,4 +1,4 @@
-export const Dainika1 = {
+export const DaiNiKa1 = {
   // 11
   title: '第二か１',
   words: [

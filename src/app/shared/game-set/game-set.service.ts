@@ -1,7 +1,19 @@
 import { Injectable } from '@angular/core';
 
-import { KimiNoNaWa2 } from '../../words/vocabulary/Q01-kimi-no-na-wa-2';
+import {
+  ZerudaNoDensetsu3,
+  KurisumasuIbu1,
+  ShisetsuNoTango1,
+  BalentainDe2,
+  SunahamadeNoBakansu1,
+  NichiJi1,
+  Jinsei,
+  Ryokou,
+  FukushiRyuushi,
+  IeNoHeyaNoTango2
+} from '../../words/vocabulary/_index';
 import { Content, TypeContent } from './game/game.model';
+import { JoshiHa, JoshiWo, JoshiNoda } from '../../words/grammar/_index';
 
 @Injectable()
 export class GameSetService {
@@ -15,7 +27,7 @@ export class GameSetService {
   }
 
   private getContentsOfConfig(): Content[] {
-    return KimiNoNaWa2.words.map(content => {
+    return IeNoHeyaNoTango2.words.map(content => {
       const type = Math.floor(Math.random() * 2)
         ? TypeContent.FrenchToJapanese
         : TypeContent.JapaneseToFrench;

@@ -1,5 +1,5 @@
 export const BalentainDe2 = {
-  // 17
+  // 16
   title: 'バレンタインデー２',
   words: [
     {
@@ -10,11 +10,6 @@ export const BalentainDe2 = {
       word: 'バラ',
       translation: ['rose'],
       precision: 'la fleur'
-    },
-    {
-      word: 'チョコレート',
-      translation: ['chocolat'],
-      precision: 'anglais'
     },
     {
       word: 'チョコラ',

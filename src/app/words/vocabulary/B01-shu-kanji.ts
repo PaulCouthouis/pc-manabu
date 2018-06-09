@@ -1,5 +1,5 @@
 export const ShuKanji = {
-  // 18
+  // 17
   title: '主漢字',
   words: [
     {
@@ -29,10 +29,6 @@ export const ShuKanji = {
     {
       word: '時',
       translation: ['temps']
-    },
-    {
-      word: '水',
-      translation: ['eau']
     },
     {
       word: '火',

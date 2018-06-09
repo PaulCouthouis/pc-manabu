@@ -1,14 +1,10 @@
 export const NichiJi1 = {
-  // 8
+  // 7
   title: '日時１',
   words: [
     {
       word: '正午',
       translation: [`midi`]
-    },
-    {
-      word: '来月',
-      translation: [`mois prochain`]
     },
     {
       word: '１月２日',

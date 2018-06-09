@@ -1,38 +1,10 @@
 export const YoubiNoYobikataToTaiyoukei = {
-  // 20
+  // 13
   title: '曜日の呼び方と太陽系',
   words: [
     {
       word: '曜日',
       translation: ['jour de la semaine']
-    },
-    {
-      word: '日曜日',
-      translation: ['dimanche']
-    },
-    {
-      word: '月曜日',
-      translation: ['lundi']
-    },
-    {
-      word: '火曜日',
-      translation: ['mardi']
-    },
-    {
-      word: '水曜日',
-      translation: ['mercredi']
-    },
-    {
-      word: '木曜日',
-      translation: ['jeudi']
-    },
-    {
-      word: '金曜日',
-      translation: ['vendredi']
-    },
-    {
-      word: '土曜日',
-      translation: ['samedi']
     },
     {
       word: '星',

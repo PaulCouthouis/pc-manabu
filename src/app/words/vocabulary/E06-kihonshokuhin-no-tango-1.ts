@@ -1,11 +1,7 @@
 export const KihonshokuhinNoTango1 = {
-  // 15
+  // 11
   title: '基本食品の単語',
   words: [
-    {
-      word: 'パン',
-      translation: [`pain`]
-    },
     {
       word: '米',
       translation: [`riz`]
@@ -29,14 +25,6 @@ export const KihonshokuhinNoTango1 = {
       translation: [`ramen`]
     },
     {
-      word: '野菜',
-      translation: [`légume`]
-    },
-    {
-      word: '果物',
-      translation: [`fruit`]
-    },
-    {
       word: 'フルーツ',
       translation: [`fruit`],
       precision: 'katakana'
@@ -44,10 +32,6 @@ export const KihonshokuhinNoTango1 = {
     {
       word: 'ジャム',
       translation: [`confiture`]
-    },
-    {
-      word: '肉',
-      translation: [`viande`]
     },
     {
       word: 'お茶',

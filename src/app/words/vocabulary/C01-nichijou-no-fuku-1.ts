@@ -1,5 +1,5 @@
 export const NichijouNoFuku1 = {
-  // 16
+  // 15
   title: '日常の服１',
   words: [
     {
@@ -9,10 +9,6 @@ export const NichijouNoFuku1 = {
     {
       word: 'Tシャツ',
       translation: [`t-shirt`]
-    },
-    {
-      word: 'セーター',
-      translation: [`pull-over`, `pull`]
     },
     {
       word: 'ジャケット',

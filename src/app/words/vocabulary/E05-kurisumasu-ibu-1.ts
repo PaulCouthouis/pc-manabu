@@ -1,5 +1,5 @@
 export const KurisumasuIbu1 = {
-  // 14
+  // 13
   title: 'クリスマス・イヴ１',
   words: [
     {
@@ -53,10 +53,6 @@ export const KurisumasuIbu1 = {
     {
       word: 'サンタクロース',
       translation: ['père Noël']
-    },
-    {
-      word: 'プレゼント',
-      translation: ['cadeau']
     }
   ]
 };

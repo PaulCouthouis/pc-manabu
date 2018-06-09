@@ -1,14 +1,10 @@
 export const KihonshokuhinNoTango2 = {
-  // 14
+  // 13
   title: '基本食品の単語２',
   words: [
     {
       word: 'バター',
       translation: [`beurre`]
-    },
-    {
-      word: 'チーズ',
-      translation: [`fromage`]
     },
     {
       word: 'ヨーグルト',

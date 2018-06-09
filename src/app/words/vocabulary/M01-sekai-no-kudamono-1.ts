@@ -1,11 +1,7 @@
 export const SekaiNoKudamono1 = {
-  // 14
+  // 13
   title: '世界の果物１',
   words: [
-    {
-      word: '林檎',
-      translation: [`pomme`]
-    },
     {
       word: '梨',
       translation: [`poire`]
