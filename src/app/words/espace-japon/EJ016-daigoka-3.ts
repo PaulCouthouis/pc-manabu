@@ -4,7 +4,7 @@ export const DaiGoKa3 = {
   words: [
     {
       word: '切符',
-      translation: [`ticker`, `billet`]
+      translation: [`ticket`, `billet`]
     },
     {
       word: 'プレゼント',

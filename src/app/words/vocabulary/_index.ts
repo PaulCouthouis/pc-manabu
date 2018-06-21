@@ -68,6 +68,9 @@ import { IeNoHeyaNoTango2 } from './P02-ie-no-heya-no-tango-2';
 import { KimiNoNaWa1 } from './P03-kimi-no-na-wa-1';
 import { KurisumasuIbu2 } from './P04-kurisumasu-ibu-2';
 import { MattanRyuushi } from './P05-mattan-ryuushi';
+import { KadenKikiNoTango1 } from './R01-kaden-kiki-no-tango-1';
+import { KadenKikiNoTango2 } from './R02-kaden-kiki-no-tango-2';
+import { ShitsumonNoTango } from './R03-shitsumon-no-tango';
 
 export {
   PettoYaKachikuNoTango,
@@ -139,5 +142,8 @@ export {
   IeNoHeyaNoTango2,
   KimiNoNaWa1,
   KurisumasuIbu2,
-  MattanRyuushi
+  MattanRyuushi,
+  KadenKikiNoTango1,
+  KadenKikiNoTango2,
+  ShitsumonNoTango
 };

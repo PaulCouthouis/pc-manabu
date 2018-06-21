@@ -1,5 +1,5 @@
 export const SunahamadeNoBakansu1 = {
-  // 16
+  // 15
   title: 'すなはまでのバカンス１',
   words: [
     {
@@ -50,10 +50,6 @@ export const SunahamadeNoBakansu1 = {
     {
       word: '麦わら帽子',
       translation: [`chapeau de paille`]
-    },
-    {
-      word: '眼鏡',
-      translation: [`lunettes`]
     },
     {
       word: 'サングラス',

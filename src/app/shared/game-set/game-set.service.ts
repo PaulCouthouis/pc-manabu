@@ -1,19 +1,20 @@
 import { Injectable } from '@angular/core';
 
-import {
-  ZerudaNoDensetsu3,
-  KurisumasuIbu1,
-  ShisetsuNoTango1,
-  BalentainDe2,
-  SunahamadeNoBakansu1,
-  NichiJi1,
-  Jinsei,
-  Ryokou,
-  FukushiRyuushi,
-  IeNoHeyaNoTango2
-} from '../../words/vocabulary/_index';
+import { JoshiKaraToMade, JoshiGa } from '../../words/grammar/_index';
 import { Content, TypeContent } from './game/game.model';
-import { JoshiHa, JoshiWo, JoshiNoda } from '../../words/grammar/_index';
+import { Keiyoushi1, Keiyoushi2 } from '../../words/espace-japon/_index';
+import {
+  HarouinNoKaibutsu1,
+  IroNoTango1,
+  KurisumasuIbu1,
+  KihonshokuhinNoTango1,
+  ShisetsuNoTango1,
+  DoushiToMizuumi,
+  YoubiNoYobikataToTaiyoukei,
+  YaseiDoubutsuNoTango1,
+  KazokuNoTango2,
+  MononokeNoHime
+} from '../../words/vocabulary/_index';
 
 @Injectable()
 export class GameSetService {
@@ -27,7 +28,7 @@ export class GameSetService {
   }
 
   private getContentsOfConfig(): Content[] {
-    return IeNoHeyaNoTango2.words.map(content => {
+    return JoshiGa.words.map(content => {
       const type = Math.floor(Math.random() * 2)
         ? TypeContent.FrenchToJapanese
         : TypeContent.JapaneseToFrench;

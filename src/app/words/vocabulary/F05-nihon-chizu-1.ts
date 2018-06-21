@@ -1,5 +1,5 @@
 export const NihonChizu1 = {
-  // 11
+  // 10
   title: '日本地図１',
   words: [
     {
@@ -41,10 +41,6 @@ export const NihonChizu1 = {
     {
       word: '福島',
       translation: ['Fukushima']
-    },
-    {
-      word: '富士山',
-      translation: ['mont Fuji']
     }
   ]
 };

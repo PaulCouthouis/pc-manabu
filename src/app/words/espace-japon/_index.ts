@@ -14,6 +14,10 @@ import { JikanNoHyougen3 } from './EJ013-jikan-no-hyougen-3';
 import { DaiGoKa1 } from './EJ014-daigoka-1';
 import { DaiGoKa2 } from './EJ015-daigoka-2';
 import { DaiGoKa3 } from './EJ016-daigoka-3';
+import { DaiRokuka1 } from './EJ017-dairokuka-1';
+import { DaiRokuka2 } from './EJ018-dairokuka-2';
+import { Keiyoushi1 } from './EJ019-keiyoushi-1';
+import { Keiyoushi2 } from './EJ020-keiyoushi-2';
 
 export {
   Shokugyou1,
@@ -31,5 +35,9 @@ export {
   JikanNoHyougen3,
   DaiGoKa1,
   DaiGoKa2,
-  DaiGoKa3
+  DaiGoKa3,
+  DaiRokuka1,
+  DaiRokuka2,
+  Keiyoushi1,
+  Keiyoushi2
 };

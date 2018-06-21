@@ -39,8 +39,8 @@ export const DaiGoKa1 = {
       translation: [`après-midi`]
     },
     {
-      word: '湯型',
-      translation: [`soir`, `soirée`]
+      word: '夕方',
+      translation: [`soirée`]
     },
     {
       word: '夜',

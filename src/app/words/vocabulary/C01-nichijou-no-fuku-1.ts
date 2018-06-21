@@ -1,5 +1,5 @@
 export const NichijouNoFuku1 = {
-  // 15
+  // 9
   title: '日常の服１',
   words: [
     {
@@ -7,32 +7,12 @@ export const NichijouNoFuku1 = {
       translation: [`chemise`]
     },
     {
-      word: 'Tシャツ',
-      translation: [`t-shirt`]
-    },
-    {
       word: 'ジャケット',
       translation: [`veste`]
     },
     {
-      word: 'ズボン',
-      translation: [`pantalon`]
-    },
-    {
       word: 'ジーンズ',
       translation: [`jeans`]
-    },
-    {
-      word: 'ベルト',
-      translation: [`ceinture`]
-    },
-    {
-      word: '靴',
-      translation: [`chaussure`]
-    },
-    {
-      word: '下駄',
-      translation: [`geta`]
     },
     {
       word: '運動靴',
@@ -41,10 +21,6 @@ export const NichijouNoFuku1 = {
     {
       word: 'スニーカー',
       translation: [`sneaker`]
-    },
-    {
-      word: '靴下',
-      translation: [`chaussette`]
     },
     {
       word: 'タイツ',

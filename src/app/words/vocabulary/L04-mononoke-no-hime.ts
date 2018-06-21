@@ -1,5 +1,5 @@
 export const MononokeNoHime = {
-  // 18
+  // 17
   title: 'もののけ姫',
   words: [
     {
@@ -41,10 +41,6 @@ export const MononokeNoHime = {
     {
       word: '家族',
       translation: [`famille`]
-    },
-    {
-      word: 'アフリカ',
-      translation: [`Afrique`]
     },
     {
       word: 'アシタカ',

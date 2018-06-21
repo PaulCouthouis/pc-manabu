@@ -6,7 +6,7 @@ export const SuupaaMario = {
       translation: [`Peach`]
     },
     {
-      word: 'デイジ',
+      word: 'デイジー',
       translation: [`Daisy`]
     },
     {

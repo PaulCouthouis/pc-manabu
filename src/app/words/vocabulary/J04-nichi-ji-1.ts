@@ -20,7 +20,7 @@ export const NichiJi1 = {
     },
     {
       word: 'いつも',
-      translation: [`toujours`]
+      translation: [`toujours`, `jamais`]
     },
     {
       word: '午後三時二十六分五十八秒',

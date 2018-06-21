@@ -1,5 +1,5 @@
 export const KimiNoNaWa1 = {
-  // 8
+  // 7
   title: '君の名は１',
   words: [
     {
@@ -37,10 +37,6 @@ export const KimiNoNaWa1 = {
     {
       word: 'ペンダント',
       translation: [`pendentif`]
-    },
-    {
-      word: '渋谷',
-      translation: [`Shibuya`]
     }
   ]
 };
