@@ -31,7 +31,7 @@ export const ShisetsuNoTango2 = {
       translation: [`super marché`]
     },
     {
-      word: 'スタジアん',
+      word: 'スタジアム',
       translation: [`stade`]
     },
     {

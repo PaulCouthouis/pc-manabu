@@ -8,7 +8,7 @@ export const Keiyoushi2 = {
     },
     {
       word: '優しい',
-      translation: [`doux`, `gentil`, `aimable`, `facile`]
+      translation: [`doux`, `aimable`, `facile`]
     },
     {
       word: '好き',
