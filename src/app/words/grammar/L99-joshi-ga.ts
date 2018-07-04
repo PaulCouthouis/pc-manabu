@@ -59,7 +59,7 @@ export const JoshiGa = {
       translation: [`Il y a une rivière.`]
     },
     {
-      word: 'アシタカが 「もののけ姫』の主人公だ。',
+      word: 'アシタカが 「もののけ姫」の主人公だ。',
       translation: [
         `C'est Ashitaka qui est le personnage principal de Princesse Mononoké.`
       ]

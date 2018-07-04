@@ -4,7 +4,7 @@ export const ShuKanji = {
   words: [
     {
       word: '人',
-      translation: ['être humain', 'homme', 'personne']
+      translation: ['être humain', 'personne']
     },
     {
       word: '男',

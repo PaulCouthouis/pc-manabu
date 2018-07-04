@@ -51,7 +51,7 @@ export const JoshiNo = {
       translation: [`C'est le loup-garou du Temple de la forêt.`]
     },
     {
-      word: ' 「ムジュラの仮面』の月だ。',
+      word: ' 「ムジュラの仮面」の月だ。',
       translation: [`C'est la lune de Majora's Mask.`]
     },
     {

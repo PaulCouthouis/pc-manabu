@@ -71,6 +71,7 @@ import { MattanRyuushi } from './P05-mattan-ryuushi';
 import { KadenKikiNoTango1 } from './R01-kaden-kiki-no-tango-1';
 import { KadenKikiNoTango2 } from './R02-kaden-kiki-no-tango-2';
 import { ShitsumonNoTango } from './R03-shitsumon-no-tango';
+import { ShitiiHantaa } from './R04-shitii-hantaa';
 
 export {
   PettoYaKachikuNoTango,
@@ -145,5 +146,6 @@ export {
   MattanRyuushi,
   KadenKikiNoTango1,
   KadenKikiNoTango2,
-  ShitsumonNoTango
+  ShitsumonNoTango,
+  ShitiiHantaa
 };
