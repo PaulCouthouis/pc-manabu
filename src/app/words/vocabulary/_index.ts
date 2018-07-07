@@ -72,6 +72,10 @@ import { KadenKikiNoTango1 } from './R01-kaden-kiki-no-tango-1';
 import { KadenKikiNoTango2 } from './R02-kaden-kiki-no-tango-2';
 import { ShitsumonNoTango } from './R03-shitsumon-no-tango';
 import { ShitiiHantaa } from './R04-shitii-hantaa';
+import { DemoPurefikkusu1 } from './S01-demo-purefikkusu-1';
+import { DemoPurefikkusu2 } from './S01-demo-purefikkusu-2';
+import { DemoPurefikkusu3 } from './S01-demo-purefikkusu-3';
+import { Rizumu } from './S04-rizumu';
 
 export {
   PettoYaKachikuNoTango,
@@ -147,5 +151,9 @@ export {
   KadenKikiNoTango1,
   KadenKikiNoTango2,
   ShitsumonNoTango,
-  ShitiiHantaa
+  ShitiiHantaa,
+  DemoPurefikkusu1,
+  DemoPurefikkusu2,
+  DemoPurefikkusu3,
+  Rizumu
 };
