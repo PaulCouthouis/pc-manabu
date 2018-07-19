@@ -47,7 +47,7 @@ export const DemoPurefikkusu1 = {
     },
     {
       word: 'どの',
-      translation: [`quelle`]
+      translation: [`quel`, `quelle`]
     }
   ]
 };

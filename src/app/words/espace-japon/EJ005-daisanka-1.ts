@@ -32,7 +32,7 @@ export const DaiSanKa1 = {
     },
     {
       word: '冷蔵庫',
-      translation: [`réfrigérateur`]
+      translation: [`réfrigérateur`, `frigo`]
     },
     {
       word: '塩',
