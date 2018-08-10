@@ -1,14 +1,7 @@
 import { Injectable } from '@angular/core';
 
-import {
-  KadenKikiNoTango2,
-  KadenKikiNoTango1
-} from '../../words/vocabulary/_index';
+import { Rizumu } from '../../words/vocabulary/_index';
 import { Content, TypeContent } from './game/game.model';
-import {
-  ShitsumonSuru,
-  DemoPurefikkusuNoBunshou
-} from '../../words/grammar/_index';
 
 @Injectable()
 export class GameSetService {
@@ -22,7 +15,7 @@ export class GameSetService {
   }
 
   private getContentsOfConfig(): Content[] {
-    return DemoPurefikkusuNoBunshou.words.map(content => {
+    return Rizumu.words.map(content => {
       const type = Math.floor(Math.random() * 2)
         ? TypeContent.FrenchToJapanese
         : TypeContent.JapaneseToFrench;

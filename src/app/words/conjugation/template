@@ -1,0 +1,70 @@
+export const Wakaru = {
+  title: '',
+  words: [
+    // inaccompli neutre affirmatif
+    {
+      word: '',
+      translation: [``]
+    },
+    // inaccompli neutre négatif
+    {
+      word: '',
+      translation: [``]
+    },
+    // inaccompli polie affirmatif
+    {
+      word: '',
+      translation: [``],
+      precision: 'polie'
+    },
+    // inaccompli polie négatif
+    {
+      word: '',
+      translation: [``],
+      precision: 'polie'
+    },
+    // accompli neutre affirmatif
+    {
+      word: '',
+      translation: [``]
+    },
+    // accompli neutre négatif
+    {
+      word: '',
+      translation: [``]
+    },
+    // accompli polie affirmatif
+    {
+      word: '',
+      translation: [``],
+      precision: 'polie'
+    },
+    // accompli polie négatif
+    {
+      word: '',
+      translation: [``],
+      precision: 'polie'
+    },
+    // volitif neutre
+    {
+      word: '',
+      translation: [``]
+    },
+    // volitif polie
+    {
+      word: '',
+      translation: [``],
+      precision: 'polie'
+    },
+    // potentiel
+    {
+      word: '',
+      translation: [``]
+    },
+    // progressif
+    {
+      word: '',
+      translation: [``]
+    },
+  ]
+};
